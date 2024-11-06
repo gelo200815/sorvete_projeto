@@ -50,7 +50,7 @@ li :hover {
 
 .carousel {
     position: relative;
-    margin-left: 50vh;
+    justify-self: center;
     width: 100vh;
     height: 50vh;
     overflow: hidden;
@@ -73,7 +73,7 @@ li :hover {
     transform: translateY(-50%);
     background: none;
     border: none;
-    color: rgb(0, 225, 255);
+    color: rgb(255, 0, 170);
     font-size: 3rem;
     cursor: pointer;
     z-index: 1;
@@ -94,18 +94,18 @@ li :hover {
 
 #picole{
     width: 90vh;
-    margin-left: 50vh;
-    margin-top: 10vh;
+    display: flex;
+    justify-self: center;
 }
 
 .mais{
     background-color: #E62866;
     margin-top: 20vh;
     border-radius: 20px 20px 20px 20px;
-    margin-left: 20vh;
     width: 155vh;
     height: 44vh;
     display: flex;
+    justify-self: center;
 }
 
 .photo{
@@ -197,8 +197,8 @@ li :hover {
 }
 
 .more{
+    justify-self: center;
     margin-top: 10vh;
-    margin-left: 54vh;
     width: 87vh;
     height: 87vh;
 }
@@ -243,6 +243,7 @@ li :hover {
     width: auto;
     height: 42.5vh;
     display: flex;
+    justify-items: center;
     margin-top: 12.9vh;
 }
 
