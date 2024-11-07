@@ -12,14 +12,14 @@ body{
     text-align: center;
     color: #1e9ec1;
     text-transform: uppercase;
-    font-size: 7vh;
-    margin-top: 14vh;
+    font-size: 6vh;
+    margin-top: 12vh;
 }
 
 header{
     background-color: #9F3081;
     width: auto;
-    height: 12vh;
+    height: 11vh;
 }
 
 #logo{
@@ -52,9 +52,8 @@ li :hover {
     position: relative;
     justify-self: center;
     width: 129vh;
-    height: 60vh;
+    height: 58vh;
     overflow: hidden;
-    border-radius: 6px;
     box-shadow: 12px 14px 30px 1px rgb(0, 0, 0);
 }
 
@@ -94,14 +93,14 @@ li :hover {
 }
 
 #picole{
-    width: 90vh;
+    width: 80vh;
     display: flex;
     justify-self: center;
 }
 
 .mais{
     background-color: #E62866;
-    margin-top: 20vh;
+    margin-top: 18vh;
     border-radius: 20px 20px 20px 20px;
     width: 155vh;
     height: 44vh;
